@@ -5,6 +5,11 @@ The goal is to demonstrate **frontend development skills** and creativity throug
 
 ---
 
+## 🔗 Project Details
+You can view the live version of the project here:  
+👉 [**Project Link**](https://jihadalibrahimm.github.io/Food-Ordering/)
+
+
 ![image](https://github.com/user-attachments/assets/56989036-e009-4e38-8677-1e2831fd8e03)
 
 
@@ -29,12 +34,6 @@ This project focuses particularly on:
 - Smooth animations  
 - Design details that **enhance user experience**  
 - Presenting the restaurant's products in a **captivating and modern layout**
-
----
-
-## 🔗 Project Details
-You can view the live version of the project here:  
-👉 [**Project Link**](https://jihado-i.github.io/Food-Ordering/)
 
 ---
 
