@@ -1,42 +1,44 @@
-gs# 🍽️ Restaurant Product Visual Showcase Project
+# Savoria Kitchen Landing Page
 
-This project aims to visually showcase the **products and varieties of dishes** of a restaurant in an impressive and modern manner.  
-The goal is to demonstrate **frontend development skills** and creativity through appealing visuals and interactions.
+A conversion-focused, responsive restaurant landing page for **Savoria Kitchen** with modern visuals, persuasive copy, and a fast order flow.
 
----
+## Project Overview
 
-## 🔗 Project Details
-You can view the live version of the project here:  
-👉 [**Project Link**](https://jihadalibrahimm.github.io/Food-Ordering/)
+This project presents Savoria Kitchen as a client-ready food brand with clear messaging, real menu content, customer reviews, and an order form designed to encourage action.
 
+## Features
 
-![image](https://github.com/user-attachments/assets/56989036-e009-4e38-8677-1e2831fd8e03)
+- Brand-consistent copy across all sections
+- Hero section with strong value proposition and clear CTAs
+- Menu-style specialty, popular items, and gallery sections
+- Customer review section with realistic testimonial content
+- Clean order form with user-friendly labels and trust note
+- Responsive layout for desktop and mobile screens
 
+## Tech Stack
 
-## 🛠️ Technologies Used
-- HTML  
-- CSS  
-- JavaScript  
-- Google Fonts  
-- FontAwesome Icons  
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+- Font Awesome
+- EmailJS (client-side order notification)
 
----
+## Screenshots
 
-## 📸 Resources Used
-- [Freepik.com](https://www.freepik.com) – for illustrations and graphics  
-- [Pexels.com](https://www.pexels.com) – for high-quality stock images  
+Add screenshots here:
 
----
+- `screenshots/home.png`
+- `screenshots/menu.png`
+- `screenshots/order.png`
 
-## 🎯 Objective
-This project focuses particularly on:
-- Visual effects and transitions  
-- Smooth animations  
-- Design details that **enhance user experience**  
-- Presenting the restaurant's products in a **captivating and modern layout**
+## Live Demo
 
----
+[View Live Demo](https://jihadalibrahimm.github.io/Food-Ordering/)
 
-## 💬 Feedback and Thoughts
-I eagerly welcome your **feedback and suggestions** to improve the project further.  
-**Thank you** for taking the time to explore it!
+## What Was Improved
+
+- Replaced demo/lorem text with professional, conversion-focused restaurant copy
+- Fixed visible spelling and grammar issues in UI text
+- Updated metadata (`title`, description, favicon reference) for better SEO clarity
+- Improved accessibility with meaningful image `alt` text and clearer form input labels
+- Reworked footer content with clean social labels and consistent contact details

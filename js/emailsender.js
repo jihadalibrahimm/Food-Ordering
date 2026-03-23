@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("TyZ1gEFNOxocrpbhT"); // 🔑 مفتاحك العام
+    emailjs.init("TyZ1gEFNOxocrpbhT");
 
     const form = document.getElementById('order-form');
     const alertBox = document.getElementById('success-alert');
@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         emailjs.sendForm('service_gtnpyng', 'template_pwbij7f', this)
         .then(() => {
-            alertMessage.textContent = "✅ Sipariş başarıyla gönderildi!";
+            alertMessage.textContent = "✅ Your order has been sent successfully.";
             alertBox.style.display = 'block';
 
             setTimeout(() => {
                 alertBox.style.display = 'none';
-            }, 2000); // 2 ثواني
+            }, 2000);
 
             form.reset();
         }, (error) => {
-            alertMessage.textContent = "❌ Gönderim sırasında bir hata oluştu.";
+            alertMessage.textContent = "❌ Something went wrong while sending your order.";
             alertBox.style.display = 'block';
 
             setTimeout(() => {
