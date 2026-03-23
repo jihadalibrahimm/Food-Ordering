@@ -49,13 +49,13 @@
     background: #f7f7f7;
   }
   section {
-    padding: 2rem 0;
+    padding: 4rem 1.6rem 3rem;
   }
-  .home .content h3 {
-    font-size: 3rem;
+  .home .content h1 {
+    font-size: 3.6rem;
   }
   .home .content p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .home .image img {
     width: 80%;
@@ -65,7 +65,7 @@
     justify-content: center;
   }
   .order-content form {
-    padding: 2rem 0;
+    padding: 2rem 0.4rem;
   }
 }
 
@@ -75,5 +75,8 @@
   }
   .order .row form .inputBox input {
     width: 100%;
+  }
+  .heading {
+    font-size: 3rem;
   }
 }

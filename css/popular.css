@@ -8,13 +8,19 @@
 
 .popular .box-container .box {
   padding: 2rem;
-  background: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border: 0.1rem solid rgba(0, 0, 0, 0.3);
-  border-radius: 0.5rem;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  border: 0.1rem solid rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius-md);
   text-align: center;
   flex: 1 1 30rem;
   position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.popular .box-container .box:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
 }
 
 .popular .box-container .box img {
@@ -30,14 +36,15 @@
   left: 3rem;
   background: var(--red);
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: 700;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
 
 .popular .box-container .box h3 {
-  color: #333;
-  font-size: 2.5rem;
+  color: var(--text-dark);
+  font-size: 2.4rem;
   padding-top: 1rem;
 }
 

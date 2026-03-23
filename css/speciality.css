@@ -11,10 +11,16 @@
   flex: 1 1 30rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-soft);
+  border: 0.1rem solid rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speciality .box-container .box:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
 }
 
 .speciality .box-container .box .image {
@@ -37,7 +43,7 @@
 
 .speciality .box-container .box .content {
   text-align: center;
-  background: #fff;
+  background: var(--surface);
   padding: 2rem;
   transition: 1s;
 }
@@ -49,11 +55,12 @@
 
 .speciality .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #666;
+  color: var(--text-dark);
 }
 
 .speciality .box-container .box .content p {
-  font-size: 1.6rem;
-  color: #666;
+  font-size: 1.55rem;
+  color: var(--text-muted);
+  line-height: 1.55;
   padding: 1rem 0;
 }

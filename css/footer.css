@@ -3,6 +3,7 @@
 footer {
   background: #000;
   text-align: center;
+  padding: 2.4rem 0 1.2rem;
 }
 
 footer .share {
@@ -12,13 +13,19 @@ footer .share {
   flex-wrap: wrap;
 }
 
-footer h1 {
+.credit {
   padding: 2rem 1rem;
-  color: #fff;
+  color: #e5e5e5;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
-footer h1 span {
+.credit span {
   color: var(--red);
+  font-weight: 700;
+}
+
+.static-contact {
+  cursor: default;
+  pointer-events: none;
 }

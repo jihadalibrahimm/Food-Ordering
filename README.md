@@ -25,11 +25,11 @@ This project presents Savoria Kitchen as a client-ready food brand with clear me
 
 ## Screenshots
 
-Add screenshots here:
+Capture and place the following screenshots in the `screenshots` folder:
 
-- `screenshots/home.png`
-- `screenshots/menu.png`
-- `screenshots/order.png`
+- `screenshots/home-desktop.png` - Hero and top navigation on desktop
+- `screenshots/menu-grid.png` - Specialty/Popular card sections
+- `screenshots/order-mobile.png` - Mobile order form and trust note
 
 ## Live Demo
 

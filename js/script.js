@@ -1,7 +1,6 @@
 const menu = document.getElementById("menu-bar");
 const navbar = document.querySelector(".navbar");
-const scrollTopBtn = document.querySelector("#scroll-top");
-const loaderContainer = document.querySelector(".loader-container");
+const header = document.querySelector("header");
 
 if (menu && navbar) {
   menu.onclick = () => {
@@ -12,25 +11,8 @@ if (menu && navbar) {
   window.onscroll = () => {
     menu.classList.remove("fa-times");
     navbar.classList.remove("active");
-
-    if (scrollTopBtn) {
-      if (window.scrollY > 60) {
-        scrollTopBtn.classList.add("active");
-      } else {
-        scrollTopBtn.classList.remove("active");
-      }
+    if (header) {
+      header.classList.toggle("scrolled", window.scrollY > 20);
     }
   };
 }
-
-function loader() {
-  if (loaderContainer) {
-    loaderContainer.classList.add("fade-out");
-  }
-}
-
-function fadeOut() {
-  setInterval(loader, 3000);
-}
-
-window.onload = fadeOut;
